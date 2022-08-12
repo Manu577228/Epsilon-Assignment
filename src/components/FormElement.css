@@ -1,0 +1,36 @@
+.wrap { 
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    margin-top: 24px;
+    font-size: 14px;
+    color: #1A1A1A;
+}
+
+.ip {
+    height: 36px;
+    width: 30rem;
+}
+
+.ip::placeholder {
+    font-size: 14px;
+    color: #737373;
+}
+
+.btn {
+    margin-top: 32px;
+    height: 36px;
+    width: 30rem;
+    background-color: #0063E6;
+    color: #FFFFFF;
+    border: none;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #F0F6FF;
+}
+

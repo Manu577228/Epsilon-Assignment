@@ -1,0 +1,52 @@
+.wrapper {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 290px;
+    border-radius: 1px;
+    box-shadow: 5px 5px 10px lightslategrey;
+}
+
+.card:hover {
+   cursor: pointer;
+   box-shadow: 1px 1px 5px #000000;
+   opacity: 60%;   
+}
+
+.image img {
+    height: 290px;
+    width: 100%;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+}
+
+.title {
+    margin-left: 16px;
+}
+
+.beach {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #0F5EF0;
+}
+
+.rufus {
+    margin-top: 18px;
+    font-weight: bolder;
+    font-size: 12px;
+    color: #7A8594;
+}
+
+.modification {
+    margin-top: 18px;
+    padding-bottom: 14px;
+    font-size: 12px;
+    color: #7A8594;
+    margin-bottom: 14px;
+}
