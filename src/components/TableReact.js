@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './TableReact.css'
 import MockData from './MockData.json'
 
 function TableReact() {
